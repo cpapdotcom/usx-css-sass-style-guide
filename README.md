@@ -1,4 +1,4 @@
-# USX CSS / Sass Style Guide
+# USX CSS / SASS Style Guide
 
 *The USX approach to CSS and SASS*
 
