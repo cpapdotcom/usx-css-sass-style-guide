@@ -76,12 +76,12 @@ Other Style Guides
       ```
 
   <a name="file-structure--code-location"></a><a name="2.2"></a>
-  - [2.2](#file-structure--code-location) All SCSS/CSS should go into our `.scss` files found within the modules `Resources/assets/sass/*` directory. It should *never* be put into Vue single-file component.
+  - [2.2](#file-structure--code-location) All SCSS/CSS should go into the `.scss` files found within a Modules `Resources/assets/sass/*` directory. It should *never* be put into Vue single-file component.
 
       > Why? Even though component SCSS/CSS can be conveniently modularized, and scoped, using Vue single-file components it can be hard to track down within the codebase. It also doesn't get run through the *stylelint* linting on webpack build or PR *Bamboo* build. Having it within our SASS files keeps our SCSS centralized and is easier to find and debug.
 
   <a name="file-structure--directories"></a><a name="2.3"></a>
-  - [2.3](#file-structure--directories) Below is a breakdown and description of a modules `Resources/assets/sass/` directory structure:
+  - [2.3](#file-structure--directories) Below is a breakdown and description of a Modules `Resources/assets/sass/` directory structure:
 
     * `Resources/assets/sass/`
         * The primary module import files. These files should contain no actual styling code, just order-specific `@imports` for building the modules CSS output.
