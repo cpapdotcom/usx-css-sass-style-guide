@@ -232,7 +232,7 @@ Other Style Guides
   <a name="formatting"></a><a name="6.1"></a>
   - [6.1](#formatting) Below are our general formatting guidelines. For a complete overview of enforced CSSS/SCSS formatting see our [.stylelintrc](http://bitbucket.usx.core/users/scott.carlson/repos/usx-modulecow-starter-template/browse/.stylelintrc?at=proposedStyleLintConfiguration) configuration file.
 
-    * When using multiple selectors in a rule block, give each selector its own line.
+    * When using multiple properties in a rule block, give each property its own line.
 
         ```sass
         /* bad */
