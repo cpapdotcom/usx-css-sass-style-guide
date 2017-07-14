@@ -24,7 +24,7 @@ Other Style Guides
 ## Terminology
 
   <a name="terminology--block"></a><a name="1.1"></a>
-  - [1.1](#terminology--block) **Block:** A *Block* is the name given to a selector (or a group of selectors) with an accompanying group of properties.
+  - [1.1](#terminology--block) **Block:** A *block* is the name given to a *selector* (or a group of *selectors*) with an accompanying group of *properties*.
 
       ```sass
       .listing {
@@ -34,7 +34,7 @@ Other Style Guides
       ```
 
   <a name="terminology--selectors"></a><a name="1.2"></a>
-  - [1.2](#terminology--selectors) **Selectors:** In a Block, *Selectors* are the bits that determine which elements in the DOM tree will be styled by the defined properties. Selectors can match HTML elements, as well as an element's class, ID, or any of its attributes.
+  - [1.2](#terminology--selectors) **Selectors:** In a *block*, *selectors* are the bits that determine which elements in the DOM tree will be styled by the defined *properties*. The *selectors* can match HTML elements, as well as an element's class, ID, or any of its attributes.
 
       ```sass
       .my-element-class {
@@ -47,7 +47,7 @@ Other Style Guides
       ```
 
   <a name="terminology--properties"></a><a name="1.3"></a>
-  - [1.3](#terminology--properties) **Properties:** Finally, *Properties* are what give the selected elements of a Block their style. Properties are key-value pairs, and a Block can contain one or more property declarations.
+  - [1.3](#terminology--properties) **Properties:** Finally, *properties* are what give the selected elements of a *block* their style. *Properties* are key-value pairs, and a *block* can contain one or more property declarations.
 
       ```sass
       /* some selector */ {
