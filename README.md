@@ -101,8 +101,8 @@ Other Style Guides
     * `Resources/assets/sass/partials`
         * Contains code grouped by global entities or components. Example: `sidebar-navigation.scss` contains all the style code for the ModuleCow sidebar.
         * The `partials` directory is also a good place to abstract out reusable code that can be used by multiple pages or the framework in general. Example: Create a reusable `.employee-card` class (and nested blocks) that may be used on the employee profile page, but also used again within other pages, such as the employee "About Us" admin page. If you ever build a styled class for a page and think it may have benefits as a reusable entity, you should abstract it out into the `partials` directory.
-    * `Resources/assets/sass/vendor-overrides`
-        * This is used to override, *and extend*, classes and styles that are vendor specific. Meaning that the vendor files themselves are loaded through Yarn and the primary vendor SASS/CSS file resides within the `node_modules` directory.
+    * `Resources/assets/sass/vendor-extensions`
+        * This is used to extend, *and override*, classes and styles that are vendor specific. Meaning that the vendor files themselves are loaded through Yarn and the primary vendor SASS/CSS file resides within the `node_modules` directory. This directory contains style rules that will extend or override those vendor defaults. The SCSS filename should match the vendor tool name.
 
 **[⬆ back to top](#table-of-contents)**
 
