@@ -1,5 +1,6 @@
 # US Expeditors CSS / Sass Style Guide
-The USX approach to CSS and SASS
+
+*The USX approach to CSS and SASS*
 
 Other Style Guides
 
