@@ -2,9 +2,11 @@
 
 *The USX approach to CSS and SASS*
 
-Other Style Guides
+##### Other Style Guides
 
+  - [USX Laravel: ModuleCow](https://github.com/cpapdotcom/usx-modulecow-style-guide)
   - [USX JavaScript](https://github.com/cpapdotcom/usx-javascript-style-guide)
+  - [USX Vue 2](https://github.com/cpapdotcom/usx-vue2-style-guide)
 
 ## Table of Contents
 
